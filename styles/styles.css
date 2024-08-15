@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    color: azure;
+    gap: 2rem;
+    padding: 5%;
+}
+
+.contenido{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+}
+
+h1{
+    color: azure;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: 500;
+}
+.contenido_texto_botones{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+}
+.area_ingreso_texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2%;
+    width: auto;
+    height: 25rem;
+    background-color: #99999927;
+    color: azure;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    resize: none;
+
+}
+
+.contenido_botones{
+    background-color: azure;
+    border-radius: 16;
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    
+}
+.contenido_salida_copiar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+
+}
+
+.area_salida_texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 2%;
+    width: auto;
+    height: 25rem;
+    background-color:#99999927 ;
+    color: azure;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    resize: none;
+}
