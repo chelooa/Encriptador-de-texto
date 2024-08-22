@@ -21,6 +21,7 @@ main{
 .contenido{
     width: 100%;
     display: flex;
+    flex-direction: row;
     gap: 1rem;
 }
 
@@ -34,22 +35,24 @@ h1{
 .contenido_texto_botones{
     display: flex;
     flex-direction: column;
-    width: 50%;
-    gap: 1rem;
+    width: 48%;
+    gap: 4rem;
 }
 .area_ingreso_texto{
     font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    padding: 2%;
+    padding: 3%;
     width: auto;
     height: 25rem;
     background-color: #99999927;
     color: azure;
     box-sizing: border-box;
+    border-radius: 10px;
     border: none;
     outline: none;
     resize: none;
+    box-shadow:  20px 20px #4e4e4e;
 
 }
 
@@ -59,12 +62,26 @@ h1{
     width: 10rem;
     height: 3rem;
     border: none;
+    border-radius: 5px;
     
 }
+.contenido_botones:hover{
+    background-color: #c7d1d1;
+}
+
+.contenedor_intercambiar{
+    display: flex;
+    width: 4%;
+    padding: 1%;
+    height: 20rem;
+    justify-content: center;
+    align-items: start ;
+}
+
 .contenido_salida_copiar{
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 48%;
     gap: 1rem;
 
 }
@@ -73,13 +90,29 @@ h1{
     font-family: "Montserrat", sans-serif;
     font-size: 1.5rem;
     font-weight: 500;
-    padding: 2%;
+    padding: 3%;
     width: auto;
     height: 25rem;
     background-color:#99999927 ;
     color: azure;
     box-sizing: border-box;
+    border-radius: 10px;
     border: none;
     outline: none;
     resize: none;
+}
+
+.footer{
+    display: flex;
+    background-color: #3d6e41 ;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.autor{
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.4rem;
 }
