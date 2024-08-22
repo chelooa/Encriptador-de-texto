@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&display=swap');
+
 
 *{
     padding: 0;
@@ -14,7 +16,7 @@ main{
     display: flex;
     flex-direction: column;
     color: azure;
-    gap: 2rem;
+    gap: 4rem;
     padding: 5%;
 }
 
@@ -26,34 +28,22 @@ main{
 }
 
 h1{
-    color: azure;
+    color: rgb(255, 255, 255);
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
-    text-align: center;
-    font-weight: 500;
+    font-weight: 600;
 }
-.contenido_texto_botones{
-    display: flex;
-    flex-direction: column;
-    width: 48%;
-    gap: 4rem;
-}
-.area_ingreso_texto{
+
+.titulo_contenedores{
     font-family: "Montserrat", sans-serif;
     font-size: 1.4rem;
     font-weight: 500;
-    padding: 3%;
-    width: auto;
-    height: 25rem;
-    background-color: #99999927;
-    color: azure;
-    box-sizing: border-box;
-    border-radius: 10px;
-    border: none;
-    outline: none;
-    resize: none;
-    box-shadow:  20px 20px #4e4e4e;
+}
 
+.division_botones_encriptar_desencriptar{
+    width: auto;
+    height: 10%;
+    padding: 1.5rem;
 }
 
 .contenido_botones{
@@ -71,35 +61,71 @@ h1{
 
 .contenedor_intercambiar{
     display: flex;
-    width: 4%;
-    padding: 1%;
-    height: 20rem;
+    width: 6%;
+    padding: 0.5%;
+    height: 4%;
     justify-content: center;
     align-items: start ;
+    background-color: #77777727;
+    border-radius: 10px;
+    box-shadow: #c300ff 0 0 0 0.025rem;
 }
 
-.contenido_salida_copiar{
+.contenido_boton_intercambiar{
+    width: 3rem;
+    height: 3rem;
+    transform: rotateZ(135deg);
+}
+
+.contenido_contenedor_entrada_salida{
     display: flex;
     flex-direction: column;
-    width: 48%;
-    gap: 1rem;
-
+    width: 47%;
+    height: 28rem;
+    background-color: #77777727;
+    box-shadow: #c300ff 0 0 0 0.40px;
+    border-radius: 0.625rem;
+    border: none;
+    box-sizing: border-box;
+}
+.division_titulo_contenedores{
+    display: flex;
+    align-items: center;
+    width: auto;
+    height: 10%;
+    padding: 0.75rem 0 0.75rem 1.5rem;
 }
 
-.area_salida_texto{
-    font-family: "Montserrat", sans-serif;
-    font-size: 1.5rem;
-    font-weight: 500;
-    padding: 3%;
+hr{
     width: auto;
-    height: 25rem;
-    background-color:#99999927 ;
-    color: azure;
+    border: none;
+    box-shadow: #c300ff 0 0 0 0.20px;   
+}
+
+.division_area_texto{
+    width: 100%;
+    height: 80%;
+}
+
+.area_texto{
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.20rem;
+    font-weight: 500;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+    background-color: #77777700;    
+    color: rgb(240, 240, 240);
     box-sizing: border-box;
     border-radius: 10px;
     border: none;
     outline: none;
     resize: none;
+}
+.division_copiar{
+    width: auto;
+    height: 10%;
+    padding: 1.5rem;
 }
 
 .footer{
