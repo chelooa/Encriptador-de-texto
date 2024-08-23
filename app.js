@@ -8,7 +8,7 @@ function cambiarTextoASalida(){
 
 
 
-    let texto = document.getElementById('2').innerHTML;
+    let texto = document.getElementById('2').value;
   const copiarTexto = async () => {
     try {
       await navigator.clipboard.writeText(texto);
