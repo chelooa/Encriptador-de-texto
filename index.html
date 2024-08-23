@@ -20,10 +20,10 @@
                 </div>
                 <hr>
                 <div class="division_area_texto">
-                    <textarea class="area_texto" name="encriptador" id="1" maxlength="500" autofocus></textarea>
+                    <textarea class="area_texto" name="ingresar_texto" id="1" maxlength="500" autofocus></textarea>
                 </div>
                 <div class="division_botones_encriptar_desencriptar">
-                    <button class="contenido_botones">Encriptar</button>
+                    <button onclick="cambiarTextoASalida();" class="contenido_botones">Encriptar</button>
                     <button class="contenido_botones">Desencriptar</button>
                 </div>
             </div>
@@ -43,7 +43,7 @@
                     <textarea class="area_texto" name="mostrar_texto" id="2" maxlength="500"></textarea>
                 </div>
                 <div class="division_copiar">
-                    <button class="contenido_botones">Copiar</button>
+                    <button onclick="copiarTexto();" class="contenido_botones">Copiar</button>
                 </div>
             </div>
 
@@ -53,6 +53,6 @@
     <footer class="footer">
         <h2 class="autor">Desarrollado por Marelo Ramirez </h2>
     </footer>
-    
+    <script src="app.js" defer></script>
 </body>
 </html>
