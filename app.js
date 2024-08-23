@@ -8,13 +8,13 @@ function cambiarTextoASalida(){
 
 
 
-    let texto = document.getElementById('2').value;
-  const copiarTexto = async () => {
-    try {
-      await navigator.clipboard.writeText(texto);
-      console.log('Contenido copiado al portapapeles');
-    } catch (err) {
-      console.error('Error al copiar: ', err);
-    }
+const copiarTexto = async () => {
+  let texto = document.getElementById('2').value;
+  try {
+    await navigator.clipboard.writeText(texto);
+    console.log('Contenido copiado al portapapeles');
+  } catch (err) {
+    console.error('Error al copiar: ', err);
   }
+}
 
