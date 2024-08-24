@@ -41,6 +41,9 @@ h1{
 }
 
 .division_botones_encriptar_desencriptar{
+    display: flex;
+    flex-direction: row;
+    gap: 4% ;
     width: auto;
     height: 10%;
     padding: 1.5rem;
@@ -141,4 +144,23 @@ hr{
     color: #ffffff;
     font-weight: 400;
     font-size: 1.4rem;
+}
+
+@media (max-width: 900px){
+    .contenido{
+        flex-direction: column;
+    }
+
+    .division_botones_encriptar_desencriptar{
+        flex-direction: row;
+    }
+
+    .contenido_contenedor_entrada_salida{
+        width: 100%;
+    }
+    .contenedor_intercambiar{
+        
+        width: 30%;
+    }
+
 }
