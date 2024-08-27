@@ -195,12 +195,15 @@ hr{
         width: 30%;
     }
     .footer{
-        height: 2rem;
+        height: 3rem;
     }
     .autor{
         font-size: 1rem;
     }
     .contenido{
         padding-bottom: 15%;
+    }
+    .titulo_encriptador{
+        padding-top: 2rem;
     }
 }
