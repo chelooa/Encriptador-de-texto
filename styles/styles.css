@@ -194,5 +194,13 @@ hr{
         
         width: 30%;
     }
-
+    .footer{
+        height: 2rem;
+    }
+    .autor{
+        font-size: 1rem;
+    }
+    .contenido{
+        padding-bottom: 15%;
+    }
 }
