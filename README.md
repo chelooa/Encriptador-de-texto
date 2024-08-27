@@ -2,7 +2,7 @@
 <h4 align="center">
 :construction: Proyecto V 1.0 finalizado :construction:
 </h4>
-  <p align="center"><a href="https://github.com/chelooa">https://github.com/chelooa/Enctriptador-de-texto</a></p>
+  <p align="center"><a href="https://chelooa.github.io/Encriptador-de-texto/">https://github.com/chelooa/Encriptador-de-texto</a></p>
 <h2>Descripción del proyecto</h2>
 <p>Proyecto de practica, que tiene como función encriptar texto y desencriptarlo, con un sistema de encriptación básico, pero para el
   aprendizaje es muy bueno. Este proyecto se encuentra en la versión numero 1.0 y me ha ayudado a comprender y dominar de mejor manera 
