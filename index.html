@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador txt</title>
     <link rel="stylesheet" href="./styles/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined&display=swap" rel="stylesheet">
+
 
 </head>
 <body>
@@ -20,7 +23,8 @@
                 </div>
                 <hr>
                 <div class="division_area_texto">
-                    <textarea class="area_texto" name="ingresar_texto" id="1" maxlength="500" autofocus></textarea>
+                    <textarea class="area_texto" name="ingresar_texto" id="1" maxlength="500" autofocus placeholder="Escribe o pega el texto aquí..."></textarea>
+                    <i id="x" class="material-symbols-outlined" onclick="limpiarCampo();">close</i>
                 </div>
                 <div class="division_botones_encriptar_desencriptar">
                     <button onclick="encriptar();" class="contenido_botones">Encriptar</button>
@@ -30,7 +34,7 @@
 
 
             <div class="contenedor_intercambiar">
-                <img src="./assets/dos-flechas.png" alt="intercambiar" class="contenido_boton_intercambiar">
+                <i onclick="intercambiar();" id="icono_intercambiar" class="material-icons icon">swap_horiz</i>
             </div>  
             
             
@@ -51,7 +55,7 @@
     </main>
  
     <footer class="footer">
-        <h2 class="autor">Desarrollado por Marelo Ramirez </h2>
+        <h2 class="autor">Desarrollado por Marcelo Ramirez </h2>
     </footer>
     <script src="app.js" defer></script>
 </body>

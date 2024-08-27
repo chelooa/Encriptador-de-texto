@@ -1,11 +1,11 @@
-
-
 function cambiarTextoASalida(texto){
-    let valorEntrada = document.getElementById('1');
     let valorSalida = document.getElementById('2');
     valorSalida.value = texto;
 }
-
+function cambiarTextoAEntrada(texto){
+  let valorEntrada = document.getElementById('1');
+  valorEntrada.value = texto;
+}
 
 
 const copiarTexto = async () => {
@@ -64,4 +64,28 @@ function desencriptar() {
   });
 
   cambiarTextoASalida(nuevoTexto);
+}
+
+function cambioLimpiar(){
+  if (document.getElementById('1').value == "") {
+      document.getElementById('x').style.display = 'none';
+  } else {
+    document.getElementById('x').style.display = 'block';
+  }
+}
+
+document.getElementById('1').addEventListener('input', cambioLimpiar);
+
+function limpiarCampo(){
+  let texto = document.getElementById('1');
+  texto.value = "";
+  cambioLimpiar();
+}
+
+function intercambiar(){
+  let intercambiadoAEntrada = document.getElementById('2').value;
+  let intercambiadoASalida = document.getElementById('1').value;
+  cambiarTextoASalida(intercambiadoASalida);
+  cambiarTextoAEntrada(intercambiadoAEntrada);
+
 }
