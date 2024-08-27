@@ -51,7 +51,7 @@ h1{
 .contenido_botones{
     background-color: #77777727;
     border-radius: 16;
-    width: 10rem;
+    width: 100%;
     height: 3rem;
     border: none;
     border-radius: 5px;
@@ -74,7 +74,7 @@ h1{
     padding: 0.5%;
     height: 3rem;
     text-align: center;
-    background-color: #77777727;
+    background-color: #202020;
     border-radius: 10px;
     box-shadow: #8000a7 0 0 0 0.04rem;
 }
@@ -99,7 +99,7 @@ h1{
     flex-direction: column;
     width: 47%;
     height: 28rem;
-    background-color: #77777727;
+    background-color: #202020;
     box-shadow: #c300ff 0 0 0 0.40px;
     border-radius: 0.625rem;
     border: none;
